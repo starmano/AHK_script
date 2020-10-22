@@ -1,0 +1,29 @@
+00. ctrl shift h - HotKey(mapa - folder) [open/kill]
+
+01. ctrl shift v - text msg: "Avtomatiziran odgovor, trenutno ne morem odgovoriti, prosim poskusi kasneje" [paste enter]
+
+02. ctrl shift d - Discord [open/minimize]
+
+03. ctrl shift c - Chrome [open/minimize]
+
+04. ctrl shift s - svn/RT1920(mapa - folder) [open/kill]
+
+05. ctrl shift f - Files(mapa - folder) [open/kill]
+
+06. ctrl shift t - Torrenti(mapa - folder) [open/kill]
+
+07. ctrl alt p - Partis.si [open new tab]
+
+08. ctrl alt m - G-Mail.com [open new tab]
+
+09. ctrl alt y - YouTube.com [open new tab]
+
+10. win shift t - MS Teams [open/minimize]
+
+11. win shift w - MS Word [open/minimize]
+
+12. win shift e - MS Excel [open/minimize]
+
+13. win shift v - MS Visual Studio [open/minimize]
+
+14. ctrl win v - Volume Mixer [open/minimize]

@@ -1,0 +1,13 @@
+*******************************
+List of the HTML syntax writers
+*******************************
+00: basic html template ctrl+shift+w
+
+01: bold ctr+shift+b
+
+02: italics ctr+shift+i
+
+03: paragraph ctr+shift+p
+
+04: div ctrl+shift+d
+
