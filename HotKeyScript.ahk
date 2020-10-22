@@ -7,15 +7,15 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; For easier navigation, check out file: ~~HotKeyList.txt~~
 ;
 ; **************************************************************************************
-; KATEGORIJE:
-;	- mapa
+; KATEGORIJE - CATEGORIES:
+;	- mapa - folder
 ;	- website
-;	- program
+;	- program - app
 ;	- text
 ;	- 
 ;	-
 ; **************************************************************************************
-; 00.	HotKeys [mapa]
+; 00.	HotKeys [mapa - folder]
 ^+h:: ;
 if !(hWnd := WinExist("HotKeys"))
     run, C:\Users\Oskar Starman\Desktop\Shortcuts\Hotkeys\
@@ -45,12 +45,12 @@ return
 Send,  Avtomatiziran odgovor, trenutno ne morem odgovoriti, prosim poskusi kasneje {enter}
 return
 
-; 02.	Discord [program]
+; 02.	Discord [program - app]
 ^+d:: 
 Process, Exist, discord.exe
 If !ErrorLevel ; is not running
 {
- Run, "C:\Users\Oskar Starman\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
+ Run, "C:\Users\Oskar Starman\AppData\Roaming\Microsoft\Windows\Start Menu\program - apps\Discord Inc\Discord"
   return
 }
  pid := ErrorLevel
@@ -60,7 +60,7 @@ else
  WinMinimize, % "ahk_pid " pid
   return
 
-; 03.	Chrome [program]
+; 03.	Chrome [program - app]
 ^+c::
 Process, Exist, chrome.exe
 If !ErrorLevel ; is not running
@@ -75,7 +75,7 @@ else
  WinMinimize, % "ahk_pid " pid
   return
 
-; 04.	svn/RT1920 [mapa]
+; 04.	svn/RT1920 [mapa - folder]
 ^+s:: ;
 if !(hWnd := WinExist("RT1920"))
     run, C:\Users\Oskar Starman\Desktop\RT1920\
@@ -96,7 +96,7 @@ else
 }
 return
 
-; 05.	Files [mapa]
+; 05.	Files [mapa - folder]
 ^+f:: 
 if !(hWnd := WinExist("Files"))
     run, C:\Users\Oskar Starman\Desktop\Files\
@@ -117,7 +117,7 @@ else
 }
 return
 
-; 06.	Torrenti [mapa]
+; 06.	Torrenti [mapa - folder]
 ^+t::
 if !(hWnd := WinExist("Torrenti"))
     run, D:\Torrenti\
@@ -153,12 +153,12 @@ return
 Run chrome.exe youtube.com 
 return
 
-; 10.	MS Teams [program]
+; 10.	MS Teams [program - app]
 #+t::
 Process, Exist, Teams.exe
 If !ErrorLevel ; is not running
 {
- Run, "C:\Users\Oskar Starman\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Teams"
+ Run, "C:\Users\Oskar Starman\AppData\Roaming\Microsoft\Windows\Start Menu\program - apps\Microsoft Teams"
   return
 }
  pid := ErrorLevel
@@ -168,12 +168,12 @@ else
  WinMinimize, % "ahk_pid " pid
   return
 
-; 11.	MS Word [program]
+; 11.	MS Word [program - app]
 #+w::
-Process, Exist, "C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE"
+Process, Exist, "C:\program - app Files\Microsoft Office\root\Office16\WINWORD.EXE"
 If !ErrorLevel ; is not running
 {
- Run, "C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE"
+ Run, "C:\program - app Files\Microsoft Office\root\Office16\WINWORD.EXE"
   return
 }
  pid := ErrorLevel
@@ -183,7 +183,7 @@ else
  WinMinimize, % "ahk_pid " pid
   return
 
-; 12.	MS Excel [program]
+; 12.	MS Excel [program - app]
 #+e::
 Process, Exist, excel.exe
 If !ErrorLevel ; is not running
@@ -198,12 +198,12 @@ else
  WinMinimize, % "ahk_pid " pid
   return
 
-; 13.	MS Visual Studio [program]
+; 13.	MS Visual Studio [program - app]
 #+v::
-Process, Exist, "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe"
+Process, Exist, "C:\program - app Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe"
 If !ErrorLevel ; is not running
 {
- Run, "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe"
+ Run, "C:\program - app Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe"
   return
 }
  pid := ErrorLevel
@@ -213,7 +213,7 @@ else
  WinMinimize, % "ahk_pid " pid
   return
 
-; 14.	Volume Mixer [program]
+; 14.	Volume Mixer [program - app]
 ^#v::
 Process, Exist, SndVol.exe
 If !ErrorLevel ; is not running

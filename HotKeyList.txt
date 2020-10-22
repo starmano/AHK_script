@@ -1,4 +1,4 @@
-00. ctrl shift h - HotKey(mapa) [open/kill]
+00. ctrl shift h - HotKey(mapa - folder) [open/kill]
 
 01. ctrl shift v - text msg: "Avtomatiziran odgovor, trenutno ne morem odgovoriti, prosim poskusi kasneje" [paste enter]
 
@@ -6,11 +6,11 @@
 
 03. ctrl shift c - Chrome [open/minimize]
 
-04. ctrl shift s - svn/RT1920(mapa) [open/kill]
+04. ctrl shift s - svn/RT1920(mapa - folder) [open/kill]
 
-05. ctrl shift f - Files(mapa) [open/kill]
+05. ctrl shift f - Files(mapa - folder) [open/kill]
 
-06. ctrl shift t - Torrenti(mapa) [open/kill]
+06. ctrl shift t - Torrenti(mapa - folder) [open/kill]
 
 07. ctrl alt p - Partis.si [open new tab]
 
