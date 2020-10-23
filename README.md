@@ -1,6 +1,8 @@
 # AHK_script
 List of HotKeys I use on a regular basis
 
+Also some HTML formatting HotKeys
+
 **FREE TO USE**
 
 
