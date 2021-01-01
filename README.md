@@ -1,7 +1,7 @@
 # AHK_script
 List of HotKeys I use on a regular basis
 
-Also some HTML formatting HotKeys
+With addition of Mic-mute AHK script.
 
 **FREE TO USE**
 

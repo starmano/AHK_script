@@ -38,12 +38,11 @@ return
 
 ; 01.	Avtomatiziran odgovor [text]
 
-;** ZVEZDAN **
-;Moje ime je Zvezdan,{enter}in v čast vam je da ste me spoznal{enter}Hiša na betonu,{enter}polna alkohola,{enter}Vse me ženske hočejo,{enter}makina do jaja.{enter}Vozm se po mestu,{enter}moj komad se rola,{enter}naj ta feeling traja{enter}Js sm car.{enter}Ne pa ne{enter}Ja pa ja, evo ti ga na {enter} Plesko si zaslužila{enter}Zdej k sm legenda,{enter}vsi me že poznajo,{enter}ustavlajo me v mestu{enter}hočjo avtograme.{enter}Pišejo po fejsu,{enter}kenslam jim objave{enter}vse me pičke gnjave{enter}
 
 ^+v::
-Send,  Avtomatiziran odgovor, trenutno ne morem odgovoriti, prosim poskusi kasneje {enter}
-return
+
+Send,  Automated answer, not currently available, please try later {enter}
+
 
 ; 02.	Discord [program - app]
 ^+d:: 
